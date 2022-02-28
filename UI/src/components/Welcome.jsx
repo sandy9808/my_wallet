@@ -114,7 +114,12 @@ const Welcome = () => {
               type="number"
               handleChange={handleChange}
             />
-            {/* <Input placeholder="Keyword (Gif)" name="keyword" type="text" handleChange={handleChange} /> */}
+            <Input
+              placeholder="Keyword (Gif)"
+              name="keyword"
+              type="text"
+              handleChange={handleChange}
+            />
             <Input
               placeholder="Enter Message"
               name="message"
